@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.23"
+    "@material/banner": "^14.0.0",
+    "inquirer": "^9.2.23",
+    "node-banner": "^1.4.0"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"

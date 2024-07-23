@@ -10,14 +10,14 @@ let idPw: {
 	balance: number;
 };
 idPw = {
-	id: "raffey",
+	id: "taha",
 	pin: 123,
 	balance: 1000,
 };
 
 const displayBanner = async () => {
 	await showBanner(
-		`RAFFEY's  ATM`,
+		`Bank's  ATM`,
 		chalk.cyan(` This is ATM PROJECT CREATED BY Muhammad Taha`),
 		"blue"
 	);
